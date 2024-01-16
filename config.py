@@ -22,9 +22,9 @@ S = [IMAGE_SIZE // 32, IMAGE_SIZE // 16, IMAGE_SIZE // 8]
 PIN_MEMORY = True
 LOAD_MODEL = False
 SAVE_MODEL = True
-CHECKPOINT_FILE = "TODO"
-IMG_DIR = "TODO"
-LABEL_DIR = "TODO"
+CHECKPOINT_FILE = "/content/drive/MyDrive/Session13/CheckPoint"
+IMG_DIR = "/content/drive/MyDrive/Session13/PASCAL_VOC/images"
+LABEL_DIR = "/content/drive/MyDrive/Session13/PASCAL_VOC/labels"
 
 ANCHORS = [
     [(0.28, 0.22), (0.38, 0.48), (0.9, 0.78)],
